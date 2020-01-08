@@ -15,6 +15,10 @@ If you're not running a local mail instance of some kind for `sendmail`, then th
 It will be up to you to ensure your email configuration is correct to send the notification using sendmail.
 
 
+# TODO
+- [ ] Make the script more generic, for more logrotate use cases. Right now it heavily depends on very specific filenames.
+
+
 # Usage
 After configuring the variables inside the script to send the information to the right email, it's as simple as:
 ```
